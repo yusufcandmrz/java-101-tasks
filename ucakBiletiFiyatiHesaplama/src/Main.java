@@ -42,7 +42,7 @@ public class Main {
         System.out.print("Yolculuk Tipini Giriniz (Gidiş(1), Gidiş-Dönüş(2)): ");
         travelType = scanner.nextInt();
 
-        if(distance > 0 && travelType == 1 || travelType == 2 && age > 0){
+        if(distance > 0 && (travelType == 1 || travelType == 2) && age > 0){
 
                 totalPrice = (distance * 0.10);
 
